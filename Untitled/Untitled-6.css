@@ -1,0 +1,135 @@
+@charset "UTF-8";img {
+ 
+}
+/* CSS Document */
+
+body {
+	margin: 1;
+	padding: 0;
+	background: #ccc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify-all;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0,5em, 0, 0, 3em;
+    text-align: center;
+}
+
+
+h1 {font-size: 45px}
+h1 {font-size: 30px}
+h1 {font-size: 26px}
+h1 {font-size: 24px}
+h1 {font-size: 20px}
+h1 {font-size: 18px}
+
+#wrapper {
+    background: #5C6A6B;
+    margin: 20px auto;
+    width: 960px;
+    padding: 15px;
+}
+
+#header{
+    background: white;
+    margin:  0 0 10px 0;
+    padding: 10px;
+    overflow: hidden;
+    }
+
+#header p{
+    image-orientation: center;
+    
+}
+
+#logo {
+    float:left;
+}
+
+#slogan {
+    float: right;
+}
+
+#nav {
+    height: 40px;
+    background: #7D8081;
+    margin: 0 0 10px 0;
+}
+
+#nav ul  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav ul li{
+    display: inline-block;
+}
+
+#nav ul li a {
+   padding: 10px 70px;
+   height: 20px;
+   line-height: 20px;
+    display: block;
+}
+
+
+#sidebar {
+  background: white;
+  height: 900px;
+  width: 240px;
+  float: right;
+  text-align: center;
+    }
+#sidebar .block{
+    margin: 0 0 30px 0;
+}
+#sidebar .block h3{
+    background: #94D445;
+    color:#FFF;
+    padding: 5px 10px;
+
+}
+
+a:link,
+a:visited {
+    color:#CBC3C3;
+    text-decoration:none;
+    }
+a:hover {
+    color:#376120;
+    text-decoration: underline;
+    }
+a:active {
+    color:#46D652;
+    }
+
+#main {
+    width: 700px;
+    float: center;
+    margin: 0 0 10px 0;
+    
+}
+
+#footer{
+    background: #D0CDC8;
+    clear: both;
+    margin: 0 0 10px 0;
+    color: black;
+    font-size:  12px;
+    text-align: center;
+    padding: 5px;
+    }
+
+
+#footer{
+    margin: 0;
+}
+
+
